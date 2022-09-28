@@ -31,9 +31,11 @@ public class QuickSort {
             System.out.println(arr[i]);
         }
         System.out.println();
+
     }
+
     public static void main(String[] args) {
-        int arr[]={10, 7, 8, 9, 1, 5};
+        int arr[]={12,13,11,14,16,15,12};
         int n=arr.length;
         quick(arr,0,n-1);
         System.out.println("Sorted list");
